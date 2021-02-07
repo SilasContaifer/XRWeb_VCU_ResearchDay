@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# XR Applied to Human Anatomy
+A way to visualize and interact with 3D directly in the web.
 
-You can use the [editor on GitHub](https://github.com/SilasContaifer/XRWeb_VCU_ResearchDay/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Does not require a special device, as can be accessed using a mobile phone or personal computer.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## How to Test
+Access this link https://silascontaifer.github.io/XRWeb_VCU_ResearchDay/examples/ArterialBloodVolume.html
+Or Point your camera to this QR Code
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<img src="https://github.com/SilasContaifer/XRWeb_VCU_ResearchDay/blob/main/image/QrCode_Example_ArterialBloodVolume.png" width="200" height="200">
 
-```markdown
-Syntax highlighted code block
+If you want to test different examples, please access the following link [examples](https://silascontaifer.github.io/XRWeb_VCU_ResearchDay)
 
-# Header 1
-## Header 2
-### Header 3
+## How to Use
+1. Clone or fork this repository
+1. Upload your own 3d files to the folder  `/assets`
+1. Create a new **.html** file  and change the 
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SilasContaifer/XRWeb_VCU_ResearchDay/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## How to Contribute
+1. Clone this repository and create a new branch
+1. Make your changes and test it
+1. Submit Pull Request with description of all the changes
