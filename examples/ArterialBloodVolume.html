@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>VCU • Silas Contaifer's WebXR</title>
+      <meta name="description" content="Silas Contaifer's example of WebXR used for human anatomy">
+      <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+      <script src="https://unpkg.com/aframe-animation-component@5.1.2/dist/aframe-animation-component.min.js"></script>
+      <script src="https://unpkg.com/aframe-event-set-component@4.0.0/dist/aframe-event-set-component.min.js"></script>
+      <script src="https://unpkg.com/aframe-proxy-event-component/dist/aframe-proxy-event-component.min.js"></script>
+      <script src="assets/gesture-detector.js"></script>
+   </head>
+   <body>
+      <a-scene>
+         <a-mixin id="scaleUp" animation__scale_up="property: scale; dur: 5000; easing: easeInOutQuad; to: 15 15 15;"></a-mixin>
+         <a-mixin id="scaleDown" animation__scale_down="property: scale; dur: 500; easing: easeInOutQuad; to: 1 1 1;"></a-mixin>
+         <a-mixin id="rotate" animation__rotate="property: rotation; dur: 5000; easing: easeInOutQuad; to: 360 0 0;"></a-mixin>
+         <a-mixin id="rotateBack" animation__rotate_back="property: rotation; dur: 5000; easing: easeInOutQuad; to: 270 90 90;"></a-mixin>
+         <a-entity rotation="270 90 90"
+            position="-0.5 1.2 -5"
+            gltf-model="https://cdn.glitch.com/3d168691-aa2b-4441-b2c0-6fc1cf08fec1%2FHeart78K_Scale1Percent.glb?v=1611946461249"
+            mixin="scaleUp scaleDown rotate rotateBack"
+            animation__scale_up="startEvents: mouseenter;"
+            animation__scale_down="startEvents: mouseleave;"
+            animation__rotate="startEvents: mouseenter;"
+            animation__rotate_back="startEvents: mouseleave;"
+            gesture-detector
+            >
+         </a-entity>
+         <a-camera camera look-controls>
+            <a-cursor material="color: yellow; shader: flat"></a-cursor>
+         </a-camera>
+         <a-sky color="#1e1e1f"></a-sky>
+      </a-scene>
+   </body>
+</html>
