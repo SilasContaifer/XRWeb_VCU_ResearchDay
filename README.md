@@ -8,9 +8,9 @@ Does not require a special device, as can be accessed using a mobile phone or pe
 Access this link https://silascontaifer.github.io/XRWeb_VCU_ResearchDay/examples/ArterialBloodVolume.html
 Or Point your camera to this QR Code
 
-<img src="https://github.com/SilasContaifer/XRWeb_VCU_ResearchDay/blob/main/image/QrCode_Example_ArterialBloodVolume.png" width="200" height="200">
+<img src="https://github.com/SilasContaifer/XRWeb_VCU_ResearchDay/blob/main/image/QrCode_Example_ArterialBloodVolumeZoom.png" width="200" height="200">
 
-If you want to test different examples, please access the following link [examples](https://silascontaifer.github.io/XRWeb_VCU_ResearchDay)
+If you want to test different examples, please access the following link [examples](https://silascontaifer.github.io/XRWeb_VCU_ResearchDay/examples/)
 
 ## How to Use
 1. Clone or fork this repository
